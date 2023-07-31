@@ -1,0 +1,26 @@
+{
+  "name": "LivelyKernel--froscon-2023",
+  "author": {
+    "name": "linusha"
+  },
+  "description": "This repository contains the slides, demo code and other resources for the talk \"Live Programming and Designing of Dynamic Web Applications - Towards a totally RAD development experience\" at FrOSCon 2023. ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LivelyKernel/froscon-2023"
+  },
+  "scripts": {
+    "build": "rm -rf build/* && export MINIFY='' && ./tools/build.sh",
+    "build-minified": "rm -rf build/* && export MINIFY=true && ./tools/build.sh"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-export-default": "1.4.0",
+    "rollup-plugin-polyfill-node": "0.9.0"
+  },
+  "lively": {
+    "projectDependencies": [],
+    "boundLivelyVersion": "34f27b39a9805265b86369a67ee0ffe665dc1f8e"
+  },
+  "version": "0.1.1"
+}
