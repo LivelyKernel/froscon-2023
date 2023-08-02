@@ -14,7 +14,7 @@ const build = await rollup({
   plugins: [
     lively({
       autoRun: {
-        title: 'testrepo',
+        title: 'lively.next Demo',
       },
       minify,
       asBrowserModule: true,
