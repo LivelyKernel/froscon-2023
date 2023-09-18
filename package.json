@@ -25,7 +25,13 @@
         "version": "0.6.3"
       }
     ],
-    "boundLivelyVersion": "3596b124e6edc271afc4baf4666b759442e25016"
+    "boundLivelyVersion": "54d89c79a1893e764c13aa184391c37ded381cae",
+    "canUsePages": true,
+    "testActionEnabled": true,
+    "buildActionEnabled": false,
+    "deployActionEnabled": true,
+    "testOnPush": true,
+    "buildOnPush": false
   },
-  "version": "0.2.0"
+  "version": "0.2.2"
 }
